@@ -232,6 +232,28 @@ textarea {
 .form-control:-ms-input-placeholder { color: white; } /* Internet Explorer 10-11 */  
 .form-control::placeholder { color: white; }
 
+#status.success{
+    animation: status 4s ease forwards;
+}
+#status.error{
+    animation: status 4s ease forwards;
+}
+
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
 @media (max-width: 1200px) {
     .nav-item { margin-right: 30px; }
 
