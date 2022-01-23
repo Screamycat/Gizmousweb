@@ -1,16 +1,17 @@
 <?php
-
     $name = $_POST['name'];
     $visitor_email = $_POST['email'];
     $message = $_POST['message'];
 
-    $email_from = 'gizmous.uf@gmail.com';
+    
+    $email_from = 'screamys.cat@gmail.com';
 
     $email_subject = 'Metall utskrift beställning';
 
     $email_body = "User name: $name.\n".
-                    "User email $visitor_email.\n".
-                        "User message $message.\n";
+                    "User email: $visitor_email.\n".
+                        "User message: $message.\n";
+
 
     $to = 'gizmous.uf@gmail.com';
 
@@ -21,5 +22,6 @@
     mail($to, $email_subject, $email_body, $headers);
 
     header("Location: contact.html");
+
 
 ?>
