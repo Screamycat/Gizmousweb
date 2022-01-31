@@ -189,6 +189,13 @@ hr { border-top: 1px solid white; }
     color: #9CC;
 }
 
+.tm-logo-link {color:white;}
+
+.tm-logo-link:hover,
+.tm-logo-link:focus {
+    color: #9CC;
+}
+
 /* Service */ 
 .tm-service-text { max-width: 365px; }
 .tm-service-img { margin-right: 25px; }
