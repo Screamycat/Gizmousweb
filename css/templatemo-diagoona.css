@@ -182,14 +182,15 @@ hr { border-top: 1px solid white; }
 }
 
 .tm-col-footer { padding-left: 0; }
-.tm-text-link { color: white; }
+.tm-text-link { color: #9cc; }
 
 .tm-text-link:hover,
 .tm-text-link:focus {
-    color: #9CC;
+    color: rgb(38, 141, 141);
 }
 
-.tm-logo-link {color:white;}
+
+.tm-logo-link {color:white}
 
 .tm-logo-link:hover,
 .tm-logo-link:focus {
